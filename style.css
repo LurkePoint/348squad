@@ -133,8 +133,9 @@ content {
 	width: 100%;
 }
 footer {
-    background-color: darkblue;
-    height: 400px;
+    background-color: #fff;
+    height: 200px;
+    margin-top: 100px;
 }
 .conteiner {
     display: flex;
@@ -144,6 +145,7 @@ footer {
 .block_content {
     height: 300px;
     width: 300px;
-    background-color: darkorange;
+    background-color: rgb(255, 255, 255);
     margin: 10px;
+    border-radius: 8px;
 }
