@@ -1,0 +1,149 @@
+body {
+	background: url(images/348fon.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+}
+header {
+    height: 140px;
+    display: flex;
+    margin-bottom: 200px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.foto img {
+    height: 40px;
+    transition: 0.3s;
+}
+.foto img:hover {
+    filter: contrast(30%);
+}
+content {
+    background-color: brown;
+    height: 1000px;
+}
+.block_header1 {
+    
+    display: flex;
+    
+    align-items: center;
+    width: 40%;
+    margin-left: 20px;
+}
+
+ .block_header2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60%;
+    margin-right: 10px;
+    
+}
+.knopka {
+    font-family: Trebuchet MS;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 3%;
+    margin-left: 3%;
+    transition: 0.3s;
+}
+.knopkaF {
+    font-family: Trebuchet MS;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 3%;
+    margin-left: 3%;
+    transition: 0.3s;
+}
+.squadG {
+    font-family: Trebuchet MS;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 3%;
+    margin-left: 3%;
+    transition: 0.3s;
+}
+.squad {
+    font-family: Trebuchet MS;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 3%;
+    margin-left: 3%;
+    transition: 0.3s;
+}
+.knopka::after {
+	content: '';
+	width: 0;
+	display: block;
+    height: 2px;
+    border-radius: 1px;
+	background-color: white;
+	transition: 0.3s;
+}
+.knopkaF::after {
+	content: '';
+	width: 100%;
+	display: block;
+    height: 2px;
+    border-radius: 1px;
+	background-color: white;
+	transition: 0.3s;
+}
+.squadG::after {
+	content: '';
+	width: 100%;
+	display: block;
+    height: 2px;
+    border-radius: 1px;
+	background-color: red;
+	transition: 0.3s;
+}
+.squad::after {
+	content: '';
+	width: 0;
+	display: block;
+    height: 2px;
+    border-radius: 1px;
+	background-color: red;
+	transition: 0.3s;
+}
+.squadG a {
+	color: red;
+}
+.squad a:hover {
+	color: red;
+}
+.squad:hover::after {
+	width: 100%;
+}
+.squadG:hover::after {
+	width: 100%;
+}
+.knopka:hover::after {
+	width: 100%;
+}
+footer {
+    background-color: darkblue;
+    height: 400px;
+}
+.conteiner {
+    display: flex;
+    justify-content: center;
+    
+}
+.block_content {
+    height: 300px;
+    width: 300px;
+    background-color: darkorange;
+    margin: 10px;
+}
